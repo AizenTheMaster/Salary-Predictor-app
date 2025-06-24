@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 # Load XGBoost model directly
-with open("C:/Users/himan/.spyder-py3/code/salary app/placement.sav", "rb") as file:
+with open('placement.sav', "rb") as file:
     model = pickle.load(file)
 
 # Streamlit UI
